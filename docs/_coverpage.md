@@ -1,5 +1,8 @@
+![](_media/logo1.png)
 ![](_media/logo.png)
+![](_media/logo1.png)
 
-# **Jaxxxxxx's Document** <small>**1.0**</small>
+# **Are you ready to depart** <small></small>
+
 
 [Let's go](README.md)
