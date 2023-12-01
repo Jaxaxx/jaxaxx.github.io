@@ -1,2 +1,2 @@
-- [一级标题](one/readme.md)
-  - [二级标题](two/readme.md)
+- [Quick Installer](quick_installer/readme.md)
+  - [Ubuntu](quick_installer/ubuntu.md)
