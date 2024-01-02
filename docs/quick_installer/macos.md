@@ -7,7 +7,7 @@
 ```
 
 ## oh-my-zsh
-choose one of two
+Installer (choose one of two)
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -17,7 +17,8 @@ git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
-set zsh
+
+Set zsh
 ```shell
 chsh -s /bin/zsh
 ```
@@ -26,6 +27,7 @@ chsh -s /bin/zsh
 ```shell
 brew install nvm
 ```
+
 You should create NVM's working directory if it doesn't exist:
 ```shell
 mkdir ~/.nvm
