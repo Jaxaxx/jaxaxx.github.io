@@ -3,6 +3,11 @@
 
 ## [Github Desktop](https://github.com/shiftkey/desktop/releases)
 
+## NVM
+```shell
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+
 ## Pyenv
 choose one of two
 ```shell
