@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjaxaxx=self.webpackChunkjaxaxx||[]).push([[866],{3913:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/jaxaxx.github.io/blog/tags/facebook","allTagsPath":"/jaxaxx.github.io/blog/tags","count":1,"unlisted":false}')}}]);
