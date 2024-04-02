@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjaxaxx=self.webpackChunkjaxaxx||[]).push([[4532],{2528:a=>{a.exports=JSON.parse('{"permalink":"/jaxaxx.github.io/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

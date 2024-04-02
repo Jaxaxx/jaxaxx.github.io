@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjaxaxx=self.webpackChunkjaxaxx||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/jaxaxx.github.io/blog","blogTitle":"Blog"}')}}]);

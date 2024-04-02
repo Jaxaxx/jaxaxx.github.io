@@ -1,3 +1,0 @@
-- [Quick Installer](quick_installer/readme.md)
-  - [Ubuntu](quick_installer/ubuntu/index.md)
-  - [MacOS](quick_installer/mac/index.md)
