@@ -12,11 +12,10 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jaxxxxx', // Usually your GitHub org/user name.
+  projectName: 'jaxaxx', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,7 +25,12 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr', 'fa', 'zh-Hans'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
   },
 
   presets: [
@@ -60,12 +64,18 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
         title: 'Jaxaxx',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
         },
+        hideOnScroll: true,
         items: [
           {
             type: 'docSidebar',
@@ -78,11 +88,16 @@ const config = {
             label: 'Blog', 
             position: 'left' 
           },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
           {
             href: 'https://github.com/jaxaxx',
             label: 'GitHub',
             position: 'right',
           },
+          
         ],
       },
       footer: {
