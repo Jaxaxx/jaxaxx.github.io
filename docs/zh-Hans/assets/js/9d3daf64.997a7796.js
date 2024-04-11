@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjaxaxx=self.webpackChunkjaxaxx||[]).push([[3002],{7980:a=>{a.exports=JSON.parse('{"label":"apt","permalink":"/zh-Hans/blog/tags/apt","allTagsPath":"/zh-Hans/blog/tags","count":1,"unlisted":false}')}}]);
