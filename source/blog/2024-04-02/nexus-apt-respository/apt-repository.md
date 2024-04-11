@@ -8,7 +8,8 @@ date: 2024-04-02T22:00
 
 - [参考链接](https://blog.csdn.net/qq_44214446/article/details/128272077) 
 
-## 生成密钥
+# 生成密钥
+
 ```shell title='在nexus所在机器生成密钥'
 # 生成密钥，最后会有个输入密码的地方，这个密钥是在nexus创建本地库需要用到的，要记住
 [root@cb286ec8aef8 sonatype]# sudo gpg --full-generate-key --pinentry-mode=loopback
@@ -39,7 +40,7 @@ gpg -a -o nexus_pri.asc --export-secret-key fftai （同上）
 # 6.密钥生成成功
 ```
 
-## 创建apt-hosted仓库
+# 创建apt-hosted仓库
 
 1. 在浏览器访问nexus
 2. 创建仓库apt-hosted，
@@ -53,7 +54,7 @@ gpg -a -o nexus_pri.asc --export-secret-key fftai （同上）
    - Deployment policy：部署策略，控制对是否允许工件进行部署和更新，下拉选择Allow redeploy（允许重新部署）。
    - 最后点击Create repository创建仓库
 
-## 注册指纹
+# 注册指纹
 
 到 http://keyserver.ubuntu.com/ 注册指纹
 ```shell title='在nexus所在机器执行'
@@ -68,7 +69,7 @@ sub   rsa2048/454A4FF6FBA56D48 2024-04-01 [E]
 # 把48EE12A3EB661AB3输入到上面的网站，然后点击Submit key 下一步把公钥拷贝进去确认提交就可以了
 ```
 
-## 客户端使用
+# 客户端使用
 ```shell title='客户端机器使用'
 # 添加公钥
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 48EE12A3EB661AB3
