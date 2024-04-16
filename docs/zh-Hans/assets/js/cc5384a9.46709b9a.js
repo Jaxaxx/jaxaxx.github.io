@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjaxaxx=self.webpackChunkjaxaxx||[]).push([[7339],{6771:a=>{a.exports=JSON.parse('{"permalink":"/zh-Hans/blog/tags/apt","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjaxaxx=self.webpackChunkjaxaxx||[]).push([[405],{979:a=>{a.exports=JSON.parse('[{"label":"nexus","permalink":"/zh-Hans/blog/tags/nexus","count":1},{"label":"apt","permalink":"/zh-Hans/blog/tags/apt","count":1},{"label":"ubuntu","permalink":"/zh-Hans/blog/tags/ubuntu","count":1}]')}}]);

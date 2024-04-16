@@ -153,7 +153,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jaxaxx, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jaxaxx`,
       },
       prism: {
         theme: prismThemes.github,
